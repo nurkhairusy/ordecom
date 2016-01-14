@@ -47,6 +47,9 @@ gem 'figaro', '1.0.0'
 # Using devise for user management
 gem 'devise', '3.4.1'
 
+# Using paperclip
+gem 'paperclip', '4.2.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

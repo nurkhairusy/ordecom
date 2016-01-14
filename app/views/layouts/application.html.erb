@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ordecom</title>
+  <title>Dev Match</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag "https://js.stripe.com/v2/", type: 'text/javascript' %>
   <%= javascript_include_tag 'application' %>
@@ -20,7 +20,7 @@
       </button>
       <%= link_to root_path, class: 'navbar-brand' do %>
         <i class="fa fa-users"></i>
-        Ordecom
+        Dev Match
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
@@ -29,7 +29,6 @@
           <%= button_to "Sign Out", destroy_user_session_path, method: :delete, class: 'btn btn-primary navbar-btn' %>
         <% else %>
           <%= link_to "Log In", new_user_session_path, class: 'btn btn-primary navbar-btn', method: :get %>
-          <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-success navbar-btn', method: :get %>
         <% end %>
       </div>
       <ul class="nav navbar-nav navbar-right">

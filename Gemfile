@@ -50,6 +50,9 @@ gem 'devise', '3.4.1'
 # Using paperclip
 gem 'paperclip', '4.2.1'
 
+# autoprefixer
+gem 'autoprefixer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
